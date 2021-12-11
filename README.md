@@ -4,13 +4,11 @@
 ## Installation
 
 __Requirements__
- - PHP (>= 8.0.0)
- - Composer (>= 2.1.8)
- - MailHog (>= 1.0.1)
-
-    - PHP (>= 8.0.0)
-    - Composer (>= 2.1.8)
-    - MailHog (>= 1.0.1)
+```
+        - PHP (>= 8.0.0)
+        - Composer (>= 2.1.8)
+        - MailHog (>= 1.0.1)
+```
 
 __Project__
 ```
