@@ -1,0 +1,9 @@
+{% extends "_base_template.html" %}
+{% block content_message %}
+    <p class="important">
+        Votre commande {{order_number}} passée le {{ order_date|date('m/d/Y') }} a été annulée.
+    </p>
+    <p>
+        N'hésitez à contacter notre service client pour toute question.
+    </p>
+{% endblock %}

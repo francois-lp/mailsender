@@ -1,0 +1,22 @@
+{
+    "name": "francois/sending-mails",
+    "autoload": {
+        "psr-4": {
+            "Model\\": "src/model/",
+            "Service\\": "src/service/",
+            "Entity\\": "src/entity/",
+            "Trait\\": "src/trait/"
+        }
+    },
+    "authors": [
+        {
+            "name": "francois-lp",
+            "email": "francois@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpmailer/phpmailer": "^6.5",
+        "twig/twig": "^3.3"
+    }
+}

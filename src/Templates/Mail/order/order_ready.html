@@ -1,0 +1,12 @@
+{% extends "_base_template.html" %}
+{% block head %}
+{{ parent() }}
+<style>
+    .important { color: #336699; }
+</style>
+{% endblock %}
+{% block content_message %}
+    <p class="important">
+        Votre commande {{order_number}} passée le {{ order_date|date('m/d/Y') }} est prête.
+    </p>
+{% endblock %}

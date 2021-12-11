@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    {% block head %}
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" />
+    {% endblock %}
+</head>
+<body>
+<section id="content">
+    {% block content %}
+        {% block content_greetings %}
+        <p>
+            Bonjour {{recipient.civility}} {{recipient.firstname}} {{ recipient.name|upper }},
+        </p>
+        {% endblock %}
+        {% block content_message %}{% endblock %}
+    {% endblock %}
+</section>
+<footer id="footer">
+    {% block footer %}
+    À très bientôt sur votre espace utilisateur.<br /><br />
+    L'équipe de <a href="https://www.monsite.fr/">Monsite.fr</a>
+    {% endblock %}
+</footer>
+</body>
+</html>

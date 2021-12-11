@@ -1,0 +1,6 @@
+{% extends "_base_template.html" %}
+{% block content_message %}
+    <p class="important">Félicitations, votre compte a été activé le {{ recipient.dateAccountActivation|date('m/d/Y') }}.</p>
+    <p>Nous vous souhaitons la bienvenue sur {{ site }}.</p>
+    <p>N'hésitez à contacter notre service client pour toute question.</p>
+{% endblock %}
