@@ -4,9 +4,11 @@
 ## Installation
 
 __Requirements__
- - PHP (>= 8.0.0)
- - Composer (>= 2.1.8)
- - MailHog (>= 1.0.1)
+```
+    - PHP (>= 8.0.0)
+    - Composer (>= 2.1.8)
+    - MailHog (>= 1.0.1)
+```
 
 __Project__
 ```
@@ -28,5 +30,5 @@ __Project__
 * [Twig](https://twig.symfony.com/)
 
 ## Screenshots
-<img src="readme_screenshot_01.png" width="600px" alt="screenshot_01">
-<img src="readme_screenshot_02.png" width="600px" alt="screenshot_01">
+<img src="readme_screenshot_01.png" alt="screenshot_01">
+<img src="readme_screenshot_02.png" alt="screenshot_01">
